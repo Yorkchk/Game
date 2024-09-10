@@ -31,7 +31,7 @@ $(window).keydown(function (e) {
   KEY_STATUS.keyDown = false;
   if (KEY_CODES[e.keyCode]) {
     e.preventDefault();
-    KEY_STATUS[KEY_CODES[e.keyCode]] = false;
+    KEY_STATUS[KEY_CODES[e.keyCode]] = true;
   }
 });
 
